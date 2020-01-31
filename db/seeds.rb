@@ -2,8 +2,8 @@
   @animal = Animal.create!(
     breed:Faker::Creature::Cat.breed,
     name: Faker::Creature::Cat.name,
-    age: rand(1.3),
-    available: "yes"
+    age: 1 + rand(5),
+    availability: "available"
   )
 end
-p "Created #{Animal.count} reviews"
+p "Created #{Animal.count} Cats!"
