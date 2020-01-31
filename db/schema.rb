@@ -15,8 +15,8 @@ ActiveRecord::Schema.define(version: 2020_01_31_165839) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "quotes", force: :cascade do |t|
-    t.string "type"
+  create_table "animals", force: :cascade do |t|
+    t.string "breed"
     t.string "name"
     t.string "age"
     t.string "availability"
