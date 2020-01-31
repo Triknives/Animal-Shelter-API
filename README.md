@@ -8,7 +8,7 @@ Version Date: _1/31/2019_
 _As described above, this application is an API that is utilized by a shelter, hosting information regarding their current available Cats. Cats have their age, name and breed recorded to better allow for an accurate inventory, while allowing potential adopters to "browse" by Breed and so forth. Cats can be added to or removed according to the needs of the shelter._
 
 ## API call examples (Get, Post etc..)
-_Below are examples of ways to access the API in various ways, such as POST, GET, DELETE. By following the formats below, end points can be accessed which will be further described below._
+_Below are examples of ways to access the API in various ways, such as POST, GET, DELETE. By following the formats below, end points can be accessed which will be further described below. For this application, Postman was utilized to make the API calls, to test out endpoints, and further explore the use of the CRUD functionality. Fake as further been utilized to seed the database with 20 cats, with various breeds, names and ages._
 
 ## Making calls with Postman
 
