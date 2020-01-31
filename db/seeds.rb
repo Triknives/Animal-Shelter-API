@@ -1,4 +1,4 @@
-10.times do |i|
+20.times do |i|
   @animal = Animal.create!(
     breed:Faker::Creature::Cat.breed,
     name: Faker::Creature::Cat.name,
