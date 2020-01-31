@@ -7,6 +7,24 @@ Version Date: _1/31/2019_
 ## Description
 _As described above, this application is an API that is utilized by a shelter, hosting information regarding their current available Cats. Cats have their age, name and breed recorded to better allow for an accurate inventory, while allowing potential adopters to "browse" by Breed and so forth. Cats can be added to or removed according to the needs of the shelter._
 
+##### _Gems Utilized:_
+* _'faker'_
+* _'shoulda-matchers'_
+* _'rspec'_
+* _'rspec-rails'_
+* _'pry'_
+* _'capybara'_
+* _'launchy'_
+* _'factory_bot_rails'_
+* _'simplecov', require: false_
+
+##### _BUNDLE!_
+## Setup/Installation Requirements
+* _Ruby 2.6.5 is the version used for this project_
+* _Rails 6.0.2.1 is the version used for this project_
+* _Make sure to bundle once checking your rails version, ruby version and the associated versions in your gemfile._
+* _Postman - This is a great tool to quickly access the API and make calls with full CRUD utilizing endpoints specified further in the documentation._
+
 ## API call examples (Get, Post etc..)
 _Below are examples of ways to access the API in various ways, such as POST, GET, DELETE. By following the formats below, end points can be accessed which will be further described below. For this application, Postman was utilized to make the API calls, to test out endpoints, and further explore the use of the CRUD functionality. Fake as further been utilized to seed the database with 20 cats, with various breeds, names and ages._
 
@@ -23,25 +41,6 @@ _Below are examples of ways to access the API in various ways, such as POST, GET
 ##### POST Example
 * In Postman Paste - http://localhost:3000/animals?breed=Lykoi&name=Brett&age=2&availability=yes
 
-## Setup/Installation Requirements
-
-* _Ruby 2.6.5 is the version used for this project_
-* _Rails 6.0.2.1 is the version used for this project_
-* _Make sure to bundle once checking your rails version, ruby version and the associated versions in your gemfile._
-* _Postman - This is a great tool to quickly access the API and make calls with full CRUD utilizing endpoints specified further in the documentation._
-
-##### _Gems Utilized:_
-* _'faker'_
-* _'shoulda-matchers'_
-* _'rspec'_
-* _'rspec-rails'_
-* _'pry'_
-* _'capybara'_
-* _'launchy'_
-* _'factory_bot_rails'_
-* _'simplecov', require: false_
-
-##### _BUNDLE!_
 ## Known Bugs
 _At this time there are no presented bugs that I have been able to come across. Should any bugs be encountered during your use of this project, please contact me at Cordell.desu@gmail.com and I will happily review them and work towards solutions. Please be provide information regarding location of the bug, and any context you find useful to better help the team address the bug/issue._
 
